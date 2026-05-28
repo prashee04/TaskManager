@@ -35,6 +35,9 @@ app.get("/health", (req, res) => {
 connectDB();
 
 // Routes
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/tasks", taskRoutes);
