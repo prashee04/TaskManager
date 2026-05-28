@@ -232,7 +232,7 @@ const Signup = () => {
                   name="adminInvitation"
                   type="text"
                   className="input-field"
-                  placeholder="Enter invitation code"
+                  placeholder="Enter invitation code eg: admin123"
                   value={formData.adminInvitation}
                   onChange={handleChange}
                 />
