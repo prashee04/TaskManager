@@ -117,7 +117,7 @@ taskManager_web_app/
 
 | Method | Path        | Auth Req? | Description                | Sample Body                                                                                     |
 | :----- | :---------- | :-------- | :------------------------- | :---------------------------------------------------------------------------------------------- |
-| `POST` | `/register` | No        | Register a new user        | `{ "name": "John", "email": "j@test.com", "password": "123", "adminInvitation": "secretCode" }` |
+| `POST` | `/register` | No        | Register a new user        | `{ "name": "John", "email": "j@test.com", "password": "123", "adminInvitation": "admin123" }` |
 | `POST` | `/login`    | No        | Authenticate user          | `{ "email": "j@test.com", "password": "123" }`                                                  |
 | `GET`  | `/profile`  | Yes       | Get logged-in user profile | `N/A`                                                                                           |
 | `PUT`  | `/profile`  | Yes       | Update profile             | `{ "name": "John Doe", "password": "new" }`                                                     |
